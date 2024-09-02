@@ -1,7 +1,10 @@
 import './App.css'
+import Layout from './Layout/Layout';
 const App = ()=> {
   return (
-    <h1 className=" whatsapp">hello</h1>
+    <>
+    <Layout/>
+    </>
   )
 }
 export default App;
