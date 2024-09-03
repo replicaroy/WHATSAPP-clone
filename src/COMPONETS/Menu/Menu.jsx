@@ -9,16 +9,16 @@ const Menu = () => {
     return (
       <>      
         <div className="menu flex flex-col justify-between h-full p-2 w-16  bg-[#F0F2F5] ">
-            <div className="header-menu flex flex-col gap-4 text-[#54656F] text-2xl pt-4 px-2  ">
-               <MdOutlineMessage />
-                <div className="reels"><MdOutlineWifiTetheringErrorRounded /></div>
-                <div className="chats"><PiWhatsappLogoThin /></div>
-                <div className="groups"><TiGroupOutline /></div>
-                <div className="meta"><TbBrandMeta /></div>
+            <div className="header-menu flex flex-col gap-4 text-[#54656F] text-2xl pt-4 px-2   ">
+               <MdOutlineMessage className="cursor-pointer" />
+                <div className="reels cursor-pointer"><MdOutlineWifiTetheringErrorRounded /></div>
+                <div className="chats cursor-pointer"><PiWhatsappLogoThin /></div>
+                <div className="groups cursor-pointer"><TiGroupOutline /></div>
+                <div className="meta cursor-pointer"><TbBrandMeta /></div>
             </div>
             <div className="footer-menu flex flex-col gap-4 text-2xl text-[#54656F] pb-4 px-2 ">
-            <div className="setting"><CiSettings /></div>
-            <div className="profile"><FaRegCircleUser /></div>
+            <div className="setting cursor-pointer"><CiSettings /></div>
+            <div className="profile cursor-pointer"><FaRegCircleUser /></div>
             </div>  
         </div>     
       </>

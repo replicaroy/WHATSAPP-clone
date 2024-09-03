@@ -10,10 +10,10 @@ const SidebarHeader = () => {
                 </div>
                 <div className="add-chat-btn flex gap-6 items-center">
                 <div className="plus text-2xl font-bold text-[#919698]">
-                    <h1><BiSolidMessageSquareAdd /></h1>
+                    <h1><BiSolidMessageSquareAdd className="cursor-pointer" /></h1>
                 </div>
                 <div className="dot-menu text-2xl font-bold text-[#111C22] ">
-                    <h1><CiMenuKebab /></h1>
+                    <h1><CiMenuKebab className="cursor-pointer" /></h1>
                 </div>
                 </div>
             </div>     
